@@ -26,12 +26,21 @@
       <url-pattern>/register</url-pattern>
   </servlet-mapping>
   
-     <servlet>
+  <servlet>
       <servlet-name>FindNewsListServlet</servlet-name>
       <servlet-class>Controler.FindNewsListServlet</servlet-class>
   </servlet>
   <servlet-mapping>
       <servlet-name>FindNewsListServlet</servlet-name>
       <url-pattern>/find_news_list</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+      <servlet-name>FindNewsServlet</servlet-name>
+      <servlet-class>Controler.FindNewsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>FindNewsServlet</servlet-name>
+      <url-pattern>/find_news</url-pattern>
   </servlet-mapping>
 </web-app>

@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <title>登陆界面</title>
 
-    <link rel="stylesheet" type="text/css" href="WEB-Page/Login/login.css"/>
+    <link rel="stylesheet" type="text/css" href="WEB-Page/Login/register.css"/>
     <script type="text/javascript" src="WEB-Page/Login/login.js"></script>
 </head>
 
@@ -14,7 +14,6 @@
 <div id="login_frame">
 
     <p id="image_logo"><img src="WEB-Page/Login/images/login/fly.png"></p>
-    <p>请注册</p>
 
     <form action="register" method="post">
 

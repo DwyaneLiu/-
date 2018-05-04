@@ -14,7 +14,6 @@
 <div id="login_frame">
 
     <p id="image_logo"><img src="WEB-Page/Login/images/login/fly.png"></p>
-    <p>请登陆</p>
 
     <form action="login" method="post">
 

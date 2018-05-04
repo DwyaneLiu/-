@@ -81,8 +81,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
         <div class="row">
             <form class="column" style="width:640px;" method="GET" action="find_news_list" name="search">
                 <div class="ui fluid  input action">
-                    <input type="text" id="companyname" name="companyname" placeholder="搜索想要了解的股票公司...">
-                    <input type="submit" class="medium ui blue button" value="搜一搜"/>
+                    <input type="text" id="companyname" name="companyname" placeholder="搜索公司名">
+                    <input type="submit" class="medium ui blue button" value="搜索" />
                 </div>
             </form>
         </div>
