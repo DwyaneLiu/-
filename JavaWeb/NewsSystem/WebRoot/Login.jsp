@@ -22,7 +22,7 @@
 
         <div id="login_control">
             <input type="submit" id="btn_login" value="登陆"/>
-            <a  id="btn_register" href="http://localhost:8080/SimpleServlet/Register.jsp">注册</a>
+            <a  id="btn_register" href="http://localhost:8080/NewsSystem/Register.jsp">注册</a>
              <td><font color="red">${error}</font></td>
         </div>
     </form>

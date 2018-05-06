@@ -31,6 +31,9 @@ public class LoginServlet extends HttpServlet{
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String username=request.getParameter("username");
         String password=request.getParameter("password");
+        //将username和password存如Session
+        
+        
         Connection con=null;
         try {
             User user=new User(username,password);
@@ -44,6 +47,7 @@ public class LoginServlet extends HttpServlet{
                 request.getRequestDispatcher("Login.jsp").forward(request, response);
             }else{
                 //System.out.println("yes");
+            	//将登陆的用户信息存入session
                 HttpSession session=request.getSession();
                 session.setAttribute("currentUser",currentUser);
                 response.sendRedirect("SearchNews.jsp");
@@ -53,6 +57,7 @@ public class LoginServlet extends HttpServlet{
         	System.out.println("point");
             e.printStackTrace();
         }
+        
         
     }
     
